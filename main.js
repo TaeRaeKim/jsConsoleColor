@@ -1,4 +1,4 @@
-const Color = require('./ColorConsoleColor')
+const Color = require('./ColorConsole')
 
 const boostCamp=
 `  _______       ______       ______       ______       _________  \n`+
@@ -17,3 +17,4 @@ const boostCamp=
 `    \\_____\\/     \\__\\/\\__\\/     \\__\\/ \\__\\/    \\_\\/       \\__\\/   `
 
 Color.print(boostCamp, Color.Text_Color.Green)
+console.log(Color.colorText("Hello World!", Color.Bg_Color.Green));

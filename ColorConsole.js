@@ -21,13 +21,19 @@ const Bg_Color = {
 }
 
 function print(text, color){
-    if(!Number(color) || color < 30 || color > 47 || (color>37 && color <40)) color = Text_Color.White;
     const lines = text.split('\n');
+    color = isValid(color);
     lines.forEach(line => console.log(`\x1b[${color}m ${line} \x1b[0m`));
-    
 }
+
 function colorText(text, color){
-    return `\x1b[${color}m ${text} \x1b[0m`;
+    color = isValid(color);
+    return `\x1b[${color}m${text}\x1b[0m`;
+}
+
+function isValid(color){
+    if(!Number(color) || color < 30 || color > 47 || (color>37 && color <40)) return Text_Color.White;
+    return color;
 }
 
 module.exports = {
@@ -36,10 +42,3 @@ module.exports = {
     print,
     colorText
 }
-
-/*
-example
-
-print("부스트캠프 웹·모바일 9기 챌린지", Text_Color.Blue);
-console.log(colorText("J070 김태래", Text_Color.Cyan))
-*/
