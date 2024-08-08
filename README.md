@@ -14,7 +14,7 @@
 - ColorConsole을 import 하고 사용합니다.
 
 ```jsx
-const Color = require('colorconsole')
+const Color = require('ColorConsole')
 
 const hi = "Hello Wolrd";
 
