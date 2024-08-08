@@ -10,7 +10,7 @@
 ## How to use?
 
 - 패키지에 jsConsoleColor를 설치합니다.
-    - `npm install [https://github.com/TaeRaeKim/jsConsoleColor.git](https://github.com/TaeRaeKim/jsConsoleColor.git)`
+    - `npm install https://github.com/TaeRaeKim/jsConsoleColor.git`
 - colorconsole을 import 하고 사용합니다.
 
 ```jsx
