@@ -21,7 +21,10 @@ const Bg_Color = {
 }
 
 function print(text, color){
-    console.log(`\x1b[${color}m ${text} \x1b[0m`);
+    if(!Number(color) || color < 30 || color > 47 || (color>37 && color <40)) color = Text_Color.White;
+    const lines = text.split('\n');
+    lines.forEach(line => console.log(`\x1b[${color}m ${line} \x1b[0m`));
+    
 }
 function colorText(text, color){
     return `\x1b[${color}m ${text} \x1b[0m`;
@@ -36,6 +39,7 @@ module.exports = {
 
 /*
 example
+
 print("부스트캠프 웹·모바일 9기 챌린지", Text_Color.Blue);
 console.log(colorText("J070 김태래", Text_Color.Cyan))
 */
