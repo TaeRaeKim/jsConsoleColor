@@ -1,9 +1,3 @@
-# Javascript Color
-
-날짜: 2024년 8월 8일
-생성자: 태래 김
-태그: 학습저장소
-
 # **ColorConsole**
 
 ![Untitled](https://github.com/user-attachments/assets/d993dad9-2f66-4e97-9268-4a8b34885579)
