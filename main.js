@@ -1,4 +1,4 @@
-const Color = require('./ColorConsole')
+const Color = require('ColorConsole')
 
 const boostCamp=
 `  _______       ______       ______       ______       _________  \n`+
