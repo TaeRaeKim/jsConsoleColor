@@ -1,0 +1,12 @@
+{
+  "name": "colorconsole",
+  "version": "1.0.0",
+  "description": "Module for color output to the console.",
+  "main": "ColorConsole.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
