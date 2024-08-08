@@ -6,7 +6,7 @@
 
 # **ColorConsole**
 
-![Untitled](Javascript%20Color%20c2b6abc4fb954d4b9912e9604cd08a11/Untitled.png)
+![Untitled](https://github.com/user-attachments/assets/d993dad9-2f66-4e97-9268-4a8b34885579)
 
 ## What is this?
 
@@ -51,4 +51,4 @@ console.log(Color.colorText(hi, Color.Bg_Color.Cyan));
 
 ### Result
 
-![Untitled](Javascript%20Color%20c2b6abc4fb954d4b9912e9604cd08a11/Untitled%201.png)
+![Untitled 1](https://github.com/user-attachments/assets/b8beda91-7b43-4542-a63d-cac98d1ea705)
